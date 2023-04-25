@@ -57,7 +57,7 @@ def peek():
 	return retdata
 
 if __name__ == "__main__":
-	SIZE = 5
+	SIZE = int(input("Enter the size of the Queue."))
 	Queue = [None for _ in range(SIZE)]
 	front = rear = -1
 
